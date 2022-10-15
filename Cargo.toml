@@ -1,0 +1,10 @@
+[package]
+name = "trick_or_retreat"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev.package.'*']
+opt-level = 3
+
+[dependencies]
+macroquad = "0.3"
